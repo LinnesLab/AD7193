@@ -102,21 +102,13 @@ void loop() {
   ch6Data = (AD7193.ReadADCChannel(6) >> 8);
 
   Serial.print("  CH6 data: ");
-  Serial.print(ch1Data, HEX);
+  Serial.print(ch6Data, HEX);
 
   // Convert to voltage
-  ch1Voltage = AD7193.DataToVoltage(ch6Data);
+  ch6Voltage = AD7193.DataToVoltage(ch6Data);
   
   Serial.print("\n\t\tChannel 1 Voltage Measurement: ");
-  Serial.println(ch1Voltage, 3);  
+  Serial.println(ch6Voltage, 3);  
    
   delay(100);
 }
-
-
-
-
-
-
-
-

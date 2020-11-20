@@ -2,7 +2,7 @@
 
 AD7193_VoltageMeasure_Example
 
-Configures and calibrates the AD7193 to measure differental voltage on AIN1 and AIN2
+Configures and calibrates the AD7193 to measure differental voltage on AIN3 and AIN4
 
 Tutorial can be found at <TBD>, and uses the PmodAD5 from Digilent.
 
@@ -111,11 +111,3 @@ void loop() {
    
   delay(100);
 }
-
-
-
-
-
-
-
-
